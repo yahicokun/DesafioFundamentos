@@ -23,7 +23,6 @@ namespace DesafioFundamentos.Models
             string veiculo;
             Console.WriteLine("Digite a Placa do Veiculo: ");
             veiculo = Console.ReadLine() ?? string.Empty;
-            Console.WriteLine("teste");
             veiculos.Add(veiculo);
             Console.WriteLine($"O veículo {veiculo} foi adicionado com sucesso!");
         }
